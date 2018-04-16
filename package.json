@@ -1,0 +1,42 @@
+{
+  "name": "echo-react-trello",
+  "version": "1.0.0",
+  "description": "Simple Trello Clone done with React Redux and React Router",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "Angjelko Miloshevski <angelkomyou@gmail.com> (https://github.com/echonox)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.37",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.37",
+    "@babel/preset-env": "^7.0.0-beta.37",
+    "@babel/preset-react": "^7.0.0-beta.37",
+    "babel-loader": "^8.0.0-beta.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.8",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^3.0.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "material-ui": "^1.0.0-beta.27",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-persist": "^5.9.1",
+    "typeface-roboto": "0.0.50"
+  },
+  "repository": "https://github.com/echonox/echo-react-trello"
+}

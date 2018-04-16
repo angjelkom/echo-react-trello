@@ -1,0 +1,50 @@
+{
+    "title": "",
+    "boards": [
+        {
+            "id": "43o5-54ui5",
+            "name": "Hello World"
+        },
+        {
+            "id": "43o5-54ui6",
+            "name": "Reading"
+        }
+    ],
+    "lists": [
+        {
+            "id": "43505-gfgr",
+            "title": "Hello Title",
+            "boardId": "43o5-54ui5"
+        },
+        {
+            "id": "43525-gfgr",
+            "title": "Books",
+            "boardId": "43o5-54ui6"
+        },
+        {
+            "id": "435545-gfgr",
+            "title": "Games",
+            "boardId": "43o5-54ui6"
+        }
+    ],
+    "todos": [
+        {
+            "id": "32444-grsa",
+            "text": "Paladins",
+            "completed": true,
+            "listId": "435545-gfgr"
+        },
+        {
+            "id": "32443-grsa",
+            "text": "Harry 4 Potter",
+            "completed": false,
+            "listId": "43525-gfgr"
+        },
+        {
+            "id": "32445-grsa",
+            "text": "Hello Todo",
+            "completed": false,
+            "listId": "43505-gfgr"
+        }
+    ]
+}
